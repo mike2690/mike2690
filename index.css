@@ -1,16 +1,83 @@
-.background-image{
-	background-image: url(./images/background.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100vh;
-}
+
 *{margin: 0;
 padding: 0;
-font-family: 'Smooch', san-serif }
-.container-fluid{
-	padding: 0;
-	margin: 0;
+font-family: 'Smooch',san-serif;
+box-sizing: border-box;}
+
+.future {height: 100vh;
+width: 100%;
+background-image: url(./images/background.jpg);
+background-size: cover;
+background-position: center;}
+
+.navbar-brand{
+	color: #f9004d;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
 }
-.card{
-	background-image: url(./image/aboutme.png);
+span{
+	color: black;
+}
+
+nav ul li {list-style-type: none;
+			display: inline-block;
+			padding: 10px 25px; }
+
+nav ul li a{color: white;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;}
+
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+
+.btn {
+	background: #f9004d;
+	color: black;
+	text-decoration: none;
+	border: 2px solid;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .3s;
+}
+
+.btn:hover{
+	transform: scale(1.2);
+}
+
+
+h4{
+	color:  white;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+h1{ color:#f9004d;
+font-size: 25px;
+margin: 20px 0px 20px;}
+
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+.aboutme{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: skyblue;
+
+
+}
+.aboutme img {
+	border-radius: 80px;
+}
+.main {width: 1100px;
+		max-width: 95%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 }
