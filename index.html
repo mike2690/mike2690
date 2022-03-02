@@ -2,72 +2,131 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MAVM Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/0e03ffd73f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 	
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-  <!-- external css file -->
-
-
-    <script src="https://kit.fontawesome.com/0e03ffd73f.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" type="text/css" href="./index.css">
-
+	<title></title>
+</head>
 <body>
+<section class="content">
+	<nav class="nav" id="navDemo">
+    <li><a class="port1"><span class="font">MAVM</span><span>Portfolio</span></a></li>
+    <li><a href="#about" class="port"onclick="myFunction()">About Us</a></li>
+    <li><a href="#project" class="port"onclick="myFunction()">My Projects</a></li>
+    <li><a href="#contact" class="port"onclick="myFunction()">Contact</a></li>
+	</nav>
 
-<div class="future">
-    
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#">MAVM<span>PortFolio</span></a>
-    
+	
+</section>
+	
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">My Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
-        </li>
-      </ul>
-     <!--  <form>
-        <a href="#" class="btn">Subscribe Now</a>
-      </form> -->
+
+
+<!-------------------------------------->
+
+
+<div class="container-fluid my-5" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+         <div class="col-lg-5">
+          <img class="img-fluid " src="images/aboutme.png" alt="">
+         </div>
+         <div class="col-lg-7 py-5 py-lg-0">
+         <h5>Developer <span>& Designer</span></h5>
+         <p>Hi There, I’m Mike and i am soon Front-End Web Developer. I want to work as web developer in near future,and i also want to create and developed many website and applications. Also want to provide my services to college students by getting their projects ready ASAP.But for now let me study first everything that can make me a great web developer and you can hire me as a freelancer for now.</p>
+        <button class="button">Let's Talk</button>
+         </div>
+         </div>
+        </div>
     </div>
-  </nav>
-  
 
+
+<!-------------------------------------->
+
+
+<div class="container-fluid my-6" id="project">
+      <div class="container" id="project">
+      <div class="row align-items-center ml-4">
+
+      <div class="box">
+       <div class="card">
+        <img class="img-fluid " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2PD2yAr4Tt4TG62BatFqSltJmYLO1_DFUqA&usqp=CAU" alt="">
+        <div class="pro1">
+         <p>HyperText MarkUp Language</p>
+         </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card">
+          <img class="img-fluid " src="https://sdtimes.com/wp-content/uploads/2018/01/bootstrap-stack.png" alt="">
+          <div class="pro1">
+            <p>BootStrap</p>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="card">
+          <img class="img-fluid " src="data:image/png;base64,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" alt="">
+          <div class="pro1">
+            <p>JaVa Script</p>
+          </div>
+        </div>
+      </div>
+
+
+
+ </div>
+ </div>
+ </div>
+
+
+	
+<!-------------------------------------->
+
+
+<div class="container-fluid my-5" id="contact">
+<div class="container">
+<div class="row align-items-center">
+
+ <div class="box w-100">
+    <div class="iframe-rwd">
+     <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30862.95039344985!2d121.02564253698371!3d14.77641918673799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397afd00f8846bf%3A0xb06ac44183dd36a5!2sBagong%20Silang%2C%20176%2C%20Caloocan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1646207806076!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     </div>
 </div>
 
-<section class="aboutme">
-  <div class="main">
-    <img src="./images/aboutme.png">
-    <div class="aboutme-text">
-      <h2>About Me</h2>
-      <h5>Developer & Designer</h5>
-      <p>Hi There, I’m Mike and i am soon Front-End Web Developer. I want to work as web developer in near future,and i also want to create and developed many website and applications. Also want to provide my services to college students by getting their projects ready ASAP.But for now let me study first everything that can make me a great web developer and you can hire me as a freelancer for now.</p>
-      <button type="button">Let's Talk</button>
-    </div>
-  </div>
-</section>
-<section class="myprojects">My Projects</section>
-<section class="contactus">Contact Us</section>
+<div class="card w-100">
+<form class="" method="post">
+   <div class="mb-3">
+   <label for="exampleFormControlInput1" class="form-label">Email address</label>
+   <input type="email" class="form-control" id="exampleFormControlInput1"  placeholder="name@example.com" required>
+   </div>
+   <div class="mb-3">
+   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+   </div>  
+   <button type="button" class="button">Send</button>
+   </div>  
+</form>
+</div>
+</div>
+</div>
+	
 
-  
- 
+<footer class="p-3 bg-dark mt-5">
+	    <p class="text-center text-white">MAVMPortFolio</p>
+	    <p class="text-center text-white">
+	        &copy;All Rights Reserved 2021
+	    </p>
+	    <div class="d-flex justify-content-center">
+	    </div>
+	</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 
 </html>
+

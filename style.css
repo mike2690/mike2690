@@ -1,3 +1,96 @@
+*{margin: 0;
+padding: 0;
+font-family: 'fredoka',san-serif;
+box-sizing: border-box;
+}
+
+li{
+	list-style-type: none;
+	border: 1px solid black;
+	float: right;
+	padding: 10px;
+}
+.content{
+	text-decoration: none;
+}
+.port1
+{
+	
+	font-weight: bold; 
+	text-decoration: none;
+	color: white;
+
+}
+.port{
+	text-decoration: none;
+	color: white;	
+}
+
+.nav{
+	background-color: black;
+	float: right;
+	width: 100%;
+
+}
+
+.nav: hover{
+	color: white;
+
+}
+@media only screen and (max-width: 620px){
+	.nav, .main, .right{
+		width: 100%;
+
+	}
+
+  
+}
+.container{
+	 height: auto;
+   width: 100%;
+   border: 1px solid black;
+}
+h1,p{
+   color: black;
+   text-align: center;
+}
+i{
+	color: white;
+	margin-left: 10px;
+}
+.about{
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	background-color: red;
+	height: 100vh;
+
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+.main {   
+  
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  height: 100vh;
+}
+img{
+	width: 100%;
+	height: 200px;
+}
+li:hover{
+   background-color: red;
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+}
+.aboutme-text{
+	text-align: center;
+}
 
 *{margin: 0;
 padding: 0;
@@ -8,15 +101,12 @@ box-sizing: border-box;
 .content {height: 100vh;
 width: 100%;
 background: #101010;
-/*background-image: url(./images/me.jpg);
-*//*border-radius: 20px;*/
+background-image: url(./images/header.jpg);
+background-repeat: no repeat;
+border-radius: 20px;
 background-size: cover;
 background-position: center;}
 
-img{
-	border-radius: 100px;
-	direction: inherit;
-}
 
 
 
@@ -24,7 +114,7 @@ img{
 	color: #f9004d;
 	font-size: 35px;
 	letter-spacing: 1px;
-	cursor: pointer;*/
+	cursor: pointer;
 /*#logo{
 	color: #f9004d;
 	font-size: 30px;
@@ -43,10 +133,6 @@ text-decoration: none;
 font-weight: bold;
 text-transform: capitalize;}
 
-nav ul li a:hover{
-	
-	transition: .4s;
-}
 
 .btn {
 	background: #f9004d;
@@ -81,7 +167,8 @@ nav ul li a:hover{
 		align-items: center;
 		justify-content: space-around;
 }
-.button {background:white;
+.button {
+	background:gold;
 	color: black;
 	text-decoration: none;
 	border: 2px solid transparent;
@@ -110,7 +197,13 @@ nav ul li a:hover{
 .button:hover{color: #f9004d;
 	transition: .4s;}
 
-
+.font{
+	color: #f9004d;
+				background-color: black;
+				text-align: center;
+				margin-right: 10px;
+				
+}
 .myprojects {background: #101010;
 width: 100%;
 height: 100vh;
@@ -126,7 +219,7 @@ padding: 100px 0px;
 	min-height: 400px;}
 
 .card {height: 350px;
-	width: 315px;
+	max-width: 300px;
 	padding: 20px;
 	background: goldenrod;
 	border-radius: 20px;
@@ -141,16 +234,50 @@ padding: 100px 0px;
 	margin: 25px 0px;
 	color: #f9004d;
 }
-iframe {max-height: 100px;
-		max-width: 200px;}
+
+.box5 {height: 350px;
+	max-width: 450px;
+	padding: 20px;
+	background: goldenrod;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;}
+
+
 
 .contactme {
 	background-color: #101010;
 	display: inline-table;
 	
 }
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 430%){
 	.content, .navbar, .aboutme, .myprojects, .contactme, .maps{
 		width: 100%;
 	}
+
+.iframe-rwd  {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+overflow: hidden;
+}
+.iframe-rwd iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
